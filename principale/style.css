@@ -1,6 +1,7 @@
 .header{
     border: 1px solid red;
     width: 100%;
+    height: 120px;
     position: fixed;
     top:0;
     left:0;
@@ -9,20 +10,63 @@
     background: red;
 
 }
-.stemma{
+body {
+    padding-top: 150px;
+}
+.stemma img{
     border: 1px solid red;
+<<<<<<< HEAD
+=======
+    width: 65px;
+    height: 45px;
+    text-align: center;
+    
+>>>>>>> 4edefc94df54aa57497cdd6227405fdaf179b9fe
 
 }
 .menu{
     border: 1px solid red;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
 }
 .menu li{display:inline-block}
-.menu li a{color: white}
+.menu li a{color: white; padding: 15px}
 /* 
 .rosso p{width: 400px; height: 100px; 
     background-color: red; position: relative; 
     top: 0; left: 0} */
 
+ .video-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    }
+  
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: no
+}
+.testo-e-immagine {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+.testo {
+    width: 60%; /* cambia questo valore a tuo piacere */
+    font-size: 18px;
+    font-family: 'Open Snans', sans-serif
+  }
+  
+.immagine img {
+    width: 60%; /* o qualunque dimensione preferisci */
+    object-fit: cover;
+  }
 *,
 *:before,
 *:after {
