@@ -10,6 +10,9 @@
     background: red;
 
 }
+body {
+    padding-top: 150px;
+}
 .stemma img{
     border: 1px solid red;
     width: 65px;
@@ -20,7 +23,8 @@
 }
 .menu{
     border: 1px solid red;
-    width:100%
+    width:100%;
+    font-family: 'Roboto', sans-serif;
 }
 .menu li{display:inline-block}
 .menu li a{color: white; padding: 15px}
@@ -28,19 +32,38 @@
 .rosso p{width: 400px; height: 100px; 
     background-color: red; position: relative; 
     top: 0; left: 0} */
-.video-container {
+
+ .video-container {
     position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-      }
-      
-    video {
     width: 100%;
-    height: 300px;
+    height: 200px;
+    overflow: hidden;
+    }
+  
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: no
+}
+.testo-e-immagine {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+.testo {
+    width: 60%; /* cambia questo valore a tuo piacere */
+    font-size: 18px;
+    font-family: 'Open Snans', sans-serif
+  }
+  
+.immagine img {
+    width: 60%; /* o qualunque dimensione preferisci */
     object-fit: cover;
-    display: block;
-      }
+  }
 *,
 *:before,
 *:after {
