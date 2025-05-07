@@ -1,6 +1,7 @@
 .header{
     border: 1px solid red;
     width: 100%;
+    height: 120px;
     position: fixed;
     top:0;
     left:0;
@@ -9,8 +10,13 @@
     background: red;
 
 }
-.stemma{
+.stemma img{
     border: 1px solid red;
+    width: 65px;
+    height: 45px;
+    text-align: center;
+    
+
 }
 .menu{
     border: 1px solid red;
@@ -22,7 +28,19 @@
 .rosso p{width: 400px; height: 100px; 
     background-color: red; position: relative; 
     top: 0; left: 0} */
-
+.video-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+      }
+      
+    video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+      }
 *,
 *:before,
 *:after {
