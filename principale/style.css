@@ -14,9 +14,10 @@
 }
 .menu{
     border: 1px solid red;
+    width:100%
 }
 .menu li{display:inline-block}
-.menu li a{color: white}
+.menu li a{color: white; padding: 15px}
 /* 
 .rosso p{width: 400px; height: 100px; 
     background-color: red; position: relative; 
