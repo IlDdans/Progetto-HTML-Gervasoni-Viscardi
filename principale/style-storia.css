@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    border: 1px solid red;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 30px;
+    display: flex;
+    background: red;
+
+}
+.stemma img{
+    border: 1px solid red;
+    width: 65px;
+    height: 45px;
+    text-align: center;
+    
+
+}
+.menu{
+    border: 1px solid red;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+.menu li{display:inline-block}
+.menu li a{color: white; padding: 15px}
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fefefe;
+    color: #222;
+    line-height: 1.6;
+    padding-top: 150px;
+    position: relative;
+  }
+  
+  .hero {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0d/Arsenal_Emirates_Stadium_panorama.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .timeline {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 20px;
+  }
+  
+  .event.left {
+    flex-direction: row;
+  }
+  
+  .event.right {
+    flex-direction: row-reverse;
+  }
+  
+  .event img {
+    width: 40%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .event .text {
+    width: 60%;
+  }
+  
+  .event h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    color: #a00000;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
