@@ -13,6 +13,7 @@
     padding: 30px;
     display: flex;
     background: red;
+    padding-top: 10px;
 
 }
 .stemma img{
@@ -28,7 +29,8 @@
     border: 1px solid red;
     width:100%;
     font-family: 'Roboto', sans-serif;
-    align-content: center;
+    font-weight: 900;
+    align-content: auto;
 }
 .menu li{display:inline-block}
 .menu li a{color: white; padding: 15px; text-decoration: None;}
@@ -43,7 +45,7 @@
   }
   
   .hero {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0d/Arsenal_Emirates_Stadium_panorama.jpg');
+    background-image: url('../Immagini/emirates.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -140,4 +142,18 @@
   .zoom-img:hover {
     transform: scale(1.05);
     filter: drop-shadow(0 0 10px #a00000);
+  }
+  .trans-txt {
+    transition: transform 0.3s ease, filter 0.3s ease;;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .trans-txt:hover {
+    color: gold;
+    transform: scale(1.01)
   }

@@ -8,6 +8,7 @@
     padding: 30px;
     display: flex;
     background: red;
+    padding-top: 10px;
 
 }
 body {
@@ -26,6 +27,7 @@ body {
     border: 1px solid red;
     width:100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     align-content: center
 }
 .menu li{display:inline-block}
@@ -91,7 +93,29 @@ body {
     height: 100px; 
     width: auto;
 }
-
+.trans-txt {
+    transition: transform 0.3s ease, filter 0.3s ease;;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .trans-txt:hover {
+    color: gold;
+  }
+  .zoom-img {
+    transition: transform 0.3s ease, filter 0.3s ease;;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .zoom-img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px #a00000);
+  }
  
  
  
