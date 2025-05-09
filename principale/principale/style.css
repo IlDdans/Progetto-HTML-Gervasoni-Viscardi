@@ -9,6 +9,7 @@
     display: flex;
     background: red;
     padding-top: 10px;
+    align-content: center;
 
 }
 body {
@@ -17,10 +18,13 @@ body {
 }
 .stemma img{
     border: 1px solid red;
+    position: relative;
+    top: 25px;
     width: 65px;
     height: 45px;
     text-align: center;
-    align-content: center
+    align-content: center;
+    align-items: center;
 
 }
 .menu{
@@ -32,10 +36,6 @@ body {
 }
 .menu li{display:inline-block}
 .menu li a{color: white; padding: 15px}
-/* 
-.rosso p{width: 400px; height: 100px; 
-    background-color: red; position: relative; 
-    top: 0; left: 0} */
 
  .video-container {
     position: relative;
@@ -59,13 +59,13 @@ body {
   }
   
 .testo {
-    width: 60%; /* cambia questo valore a tuo piacere */
+    width: 60%; 
     font-size: 18px;
     font-family: 'Open Snans', sans-serif
   }
   
 .immagine img {
-    width: 60%; /* o qualunque dimensione preferisci */
+    width: 60%; 
     object-fit: cover;
   }
 
@@ -128,15 +128,27 @@ body {
     -moz-box-align: border-box;
     box-sizing: border-box;
 }
-/*body,
-html{padding: 0;margin: 0;}
 
-.img-res{width: 100%;height: auto; overflow: hidden}
+.search-container {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
 
-.white{color: White}
+.search-box {
+  top: 0;
+  right: 0;
+  width: 40px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  transition: width 0.4s ease, background-color 0.3s ease;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
 
-header{background-color: red; padding: 20px 20px 40px 30px;}
-
-#menu-header { text-align: left; padding-top: 0;}
-#menu-header li{display: inline;}
-#menu-header li{border: 1px; margin: 10px;}
+.search-container:hover .search-box {
+  width: 200px;
+  cursor: text;
+}

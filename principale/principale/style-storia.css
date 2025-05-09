@@ -18,10 +18,13 @@
 }
 .stemma img{
     border: 1px solid red;
+    top: 25px;
     width: 65px;
     height: 45px;
+    position: relative;
     text-align: center;
-    align-content: center
+    align-content: center;
+    align-items: center;
     
 
 }
@@ -30,7 +33,7 @@
     width:100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    align-content: auto;
+    align-content: center;
 }
 .menu li{display:inline-block}
 .menu li a{color: white; padding: 15px; text-decoration: None;}
@@ -45,7 +48,7 @@
   }
   
   .hero {
-    background-image: url('../Immagini/emirates.jpg');
+    background-image: url("../principale/immagini/emirates.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
