@@ -49,9 +49,9 @@
 body {
     padding-top: 150px;
     position: relative;
-    display: flex;
-    justify-content: center;
+    display: block; 
     align-items: center;
+    justify-content: center;
 }
 
 .cart-icon { 
@@ -67,6 +67,66 @@ body {
     width: 100%;
     background-color: #222;
     color: white;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
+}
+
+
+.shop-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.shop-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+
+.product-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 260px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease; 
+}
+
+.product-card:hover img {
+  transform: scale(1.15); 
+}
+
+.product-card h3 {
+  font-size: 1.1rem;
+  margin: 15px 0 10px;
+}
+
+.product-card .price {
+  color: #b12704;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
