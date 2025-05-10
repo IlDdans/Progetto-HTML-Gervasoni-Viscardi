@@ -8,18 +8,21 @@
     padding: 30px;
     display: flex;
     background: red;
-    padding-top: 10px;
+    padding-top: 0px;
     align-content: center;
 
 }
 body {
     padding-top: 150px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .stemma img{
     border: 1px solid red;
     position: relative;
-    top: 25px;
+    top: 35px;
     width: 65px;
     height: 45px;
     text-align: center;
@@ -37,21 +40,34 @@ body {
 .menu li{display:inline-block}
 .menu li a{color: white; padding: 15px}
 
- .video-container {
+
+.media-container {
     position: relative;
-    width: 100%;
-    height: 200px;
+    top: 10px;
+    width: 90%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
-    }
-  
-.video-container iframe {
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.media-container img,
+.media-container video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border: no
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
 }
+.media-container video {
+      opacity: 0;
+}
+
+
+
 .testo-e-immagine {
     display: flex;
     align-items: center;
@@ -69,17 +85,25 @@ body {
     object-fit: cover;
   }
 
-.footer {
+
+
+
+
+
+
+
+  .footer {
     border: 1px solid gold;
     width: 100%;
     height: 200px;
-    position: fixed;
     padding: 30px;
     display: flex;
-    background-color: rgb(231, 201, 115);
     bottom: 0;
     left: 0;
+    position: fixed;
+    background-color: rgb(231, 201, 115);
     text-align: center;
+    justify-content: center;
 
 }
 .image-footer{
