@@ -77,7 +77,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .shop-section h2 {
@@ -94,7 +94,11 @@ body {
   justify-items: center;
 }
 
-
+.titolo-kit {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 32px;
+  font-weight: 700;
+}
 .product-card {
   text-decoration: none;
   color: inherit;
@@ -111,7 +115,8 @@ body {
 
 .product-card img {
   width: 100%;
-  height: auto;
+  height: 300px; 
+  object-fit: cover; 
   display: block;
   transition: transform 0.3s ease; 
 }
