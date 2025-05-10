@@ -48,12 +48,12 @@ body {
 
 .media-container {
     position: relative;
-    top: 10px;
+    top: 0px;
     width: 90%;
     max-width: 800px;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
