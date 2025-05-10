@@ -1,15 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .header{
-    border: 1px solid red;
+   border: 1px solid red;
     width: 100%;
     height: 120px;
-    position:absolute;
+    position: absolute;
     top:0;
     left:0;
     padding: 30px;
     display: flex;
     background: red;
-    padding-top: 0px;
-    align-content: center;
+    padding-top: 10px;
 
 }
 body {
@@ -20,25 +24,26 @@ body {
     align-items: center;
 }
 .stemma img{
-    border: 1px solid red;
-    position: relative;
-    top: 35px;
-    width: 65px;
-    height: 45px;
-    text-align: center;
-    align-content: center;
-    align-items: center;
+  border: 1px solid red;
+  top: 25px;
+  width: 65px;
+  height: 45px;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  align-items: center;
 
 }
 .menu{
-    border: 1px solid red;
-    width:100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    align-content: center
+  border: 1px solid red;
+  width:100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  align-content: center;
+  position: relative;
 }
 .menu li{display:inline-block}
-.menu li a{color: white; padding: 15px}
+.menu li a{color: white; padding: 15px; text-decoration: None;}
 
 
 .media-container {
@@ -113,8 +118,9 @@ body {
     text-align: center;
     gap: 72px; 
     margin-bottom: 10px;
-    padding: 0px;
-    position: relative;
+    padding-top: 10px;
+    position: absolute;
+    display: flex;
     margin-left: 5%;
 }
 .image-footer img {
