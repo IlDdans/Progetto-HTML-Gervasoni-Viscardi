@@ -152,11 +152,70 @@
     height: auto;
     display: block;
     margin: 20px auto;
-    text-align: center;
-    align-content: center;
   }
   
   .trans-txt:hover {
     color: gold;
-    transform: scale(1.01)
+  }
+
+  @media (max-width: 768px) {
+
+    .header {
+      flex-direction: column;
+      height: auto;
+      padding: 15px 10px;
+      text-align: center;
+    }
+  
+    .stemma img {
+      width: 50px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  
+    .menu {
+      text-align: center;
+    }
+  
+    .menu li {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    .hero {
+      height: 40vh;
+      padding: 20px 10px;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+  
+    .timeline {
+      padding: 40px 10px;
+    }
+  
+    .event {
+      flex-direction: column !important;
+      text-align: center;
+    }
+  
+    .event img,
+    .event .text {
+      width: 100%;
+    }
+  
+    .event img {
+      margin-bottom: 15px;
+    }
+  
+    .event h2 {
+      font-size: 1.4rem;
+    }
+  
   }
