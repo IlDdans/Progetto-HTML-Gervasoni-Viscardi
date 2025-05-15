@@ -32,7 +32,6 @@ body {
     align-items: center;
     flex: 1;
     flex-direction: column;
-    padding-bottom: 350px;
 }
 main {
   display: flex;

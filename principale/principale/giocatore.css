@@ -1,4 +1,4 @@
-/* Font principale */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f0f2f5;
@@ -7,7 +7,6 @@ body {
     padding: 20px;
   }
   
-  /* Contenitore centrale */
   .container {
     max-width: 850px;
     margin: auto;
@@ -17,7 +16,6 @@ body {
     box-shadow: 2px 8px 20px 2px red;
   }
   
-  /* Titolo principale */
   h1 {
     text-align: center;
     color: #ba0000;
@@ -25,7 +23,6 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Immagine del giocatore */
   img {
     display: block;
     margin: 20px auto;
@@ -34,7 +31,6 @@ body {
     border: 3px solid #ba0000;
   }
   
-  /* Sezioni descrittive */
   .section {
     margin-bottom: 25px;
   }
@@ -45,8 +41,7 @@ body {
     padding-bottom: 6px;
     margin-bottom: 12px;
   }
-  
-  /* Statistiche */
+ 
   .stats {
     display: flex;
     justify-content: center;
@@ -75,4 +70,22 @@ body {
     margin-right: 8px;
     color: #ba0000;
     font-size: 1.3em;
+  }
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .back-button img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
+  }
+
+  .back-button:hover img {
+    transform: scale(1.1);
   }
