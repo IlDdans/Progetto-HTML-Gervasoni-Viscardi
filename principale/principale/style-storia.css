@@ -159,63 +159,40 @@
   }
 
   @media (max-width: 768px) {
-
-    .header {
-      flex-direction: column;
-      height: auto;
-      padding: 15px 10px;
-      text-align: center;
+    body {
+    flex-direction: column !important;  
     }
-  
-    .stemma img {
-      width: 50px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-  
     .menu {
-      text-align: center;
+      align-content: center;
+      display: flex !important;
+      flex-wrap: wrap;
+      gap: 8px !important;
     }
-  
-    .menu li {
-      display: block;
-      margin: 5px 0;
+    .menu li a {
+      padding: 6px 8px !important;
+      font-size: 0.9rem !important;
     }
-  
-    .hero {
-      height: 40vh;
-      padding: 20px 10px;
-    }
-  
-    .hero h1 {
-      font-size: 2rem;
-    }
-  
-    .hero p {
-      font-size: 1rem;
-      padding: 0 10px;
-    }
-  
-    .timeline {
-      padding: 40px 10px;
+    .menu li a {
+      font-size: 0.85rem;
+      padding: 6px 10px;
     }
   
     .event {
       flex-direction: column !important;
       text-align: center;
     }
-  
+
     .event img,
     .event .text {
-      width: 100%;
+      width: 100% !important;
     }
-  
-    .event img {
-      margin-bottom: 15px;
+
+    .event .text {
+      margin-top: 10px;
     }
-  
-    .event h2 {
-      font-size: 1.4rem;
+    .footer{
+      padding: 0px 10px !important;
+      margin-top: 100px !important;
     }
   
   }
