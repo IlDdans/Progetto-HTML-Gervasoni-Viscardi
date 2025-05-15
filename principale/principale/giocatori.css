@@ -16,10 +16,11 @@
     padding-top: 10px;
 
 }
-body {
+body{
     padding-top: 150px;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1;
@@ -29,8 +30,20 @@ body {
 main {
   flex: 1; 
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
-
+.footer {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
 
 .stemma img{
   border: 1px solid red;
@@ -133,39 +146,6 @@ main {
   color: #b12704;
   font-weight: bold;
   margin-bottom: 15px;
-}
-
-
-
-.footer {
-  position: absolute;
-  border: 1px solid gold;
-  width: 100%;
-  height: 200px;
-  padding: 30px;
-  display: flex;
-  bottom: 0;
-  left: 0;
-  background-color: rgb(231, 201, 115);
-  text-align: center;
-  justify-content: center;
-
-}
-.image-footer{
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  text-align: center;
-  gap: 72px; 
-  margin-bottom: 10px;
-  padding-top: 10px;
-  position: absolute;
-  display: flex;
-  margin-left: 5%;
-}
-.image-footer img {
-  height: 100px; 
-  width: auto;
 }
 
 
