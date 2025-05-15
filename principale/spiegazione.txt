@@ -1,0 +1,9 @@
+Abbiamo realizzato un sito relativo alla squadra di calcio inglese dell'Arsenal. Il sito presenta un menù, con i vari link alle altre pagine del nostro htnl.
+Sotto al menù si presenta la nostra schermata Home la quale ha un video rappresentativo della squadra, gli ultimi risultati (dove è presente un link per ogni partita che porterà a una pagina dedicata alla suddetta partita).
+Alla fine della sezione Home è presente un footer con gli sponsor della squadra, ognuno dei quali presenta un link per le pagine di google dei vari sponsor.
+Tra le altre pagine da noi create troviamo quella relativa alla storia, che racconta per filo e per segno la storia dei Gunners. La pagina del negozio che presenta ogni 
+articolo disponibile per il negozio, il quale avrà un link che ti indirizzerà allo shop ufficile dove poter effettivamente acquistare l'articolo. Il sito presenta
+anche una sezione giocatori, dove vi sono tutte le immagini dei giocatori della rosa dell'arsenal, per ognuno dei quali è possibile leggere ulteriori informazionni semplicemnte
+cliccando sulle immagini di essi, aprirà dunque un'ulteriore pagina html che racconta carriere, caratteristiche tecniche e statistiche di ogni giocatore. 
+Vi è infine una sezione notizie, ogni notizia presenta un link per il sito ufficiale dell'arsenal il modo tale che tu possa sceglierti le notizie più accattivanti dal nostro sito
+e leggerle su quello ufficisle dei <Gunners.
