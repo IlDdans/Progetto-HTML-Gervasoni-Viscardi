@@ -30,8 +30,122 @@ main {
   flex: 1; 
   width: 100%;
 }
+.ultimi-risultati {
+  margin-top: 50px;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.ultimi-risultati h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #b10000;
+}
 
+.match-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.match-container {
+  max-width: 900px;
+  margin: 160px auto 50px auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.team-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.team-logos img {
+  height: 80px;
+  width: auto;
+}
+
+.score {
+  font-size: 36px;
+  font-weight: bold;
+  color: #b10000;
+  margin-bottom: 10px;
+}
+
+.match-info, .match-summary {
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.goal-scorers {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.goal-scorers h2 {
+  margin-bottom: 15px;
+  color: darkred;
+}
+
+.goal-scorers ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.goal-scorers li {
+  margin-bottom: 8px;
+}
+
+.match-image {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.match-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.match-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.match-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.match-card p {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.match-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
 .stemma img{
   border: 1px solid red;
   top: 25px;
