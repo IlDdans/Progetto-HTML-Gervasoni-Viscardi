@@ -121,7 +121,7 @@ main {
 }
 
 .player-card:hover img {
-  transform: scale(1.05); 
+  transform: scale(1.03); 
 }
 
 .plauyer-card h3 {
